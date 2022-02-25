@@ -15,6 +15,7 @@ preRun:
     # For eg, npm ci, yarn install or any other command used to fetch node modules
     - yarn install 
     - yarn build
+    - yarn test
 
 postMerge:
   # env vars provided at the time of discovering and executing the post-merge tests
